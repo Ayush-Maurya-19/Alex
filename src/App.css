@@ -115,9 +115,26 @@
   text-align: center;
 }
 
+.section5LeftText1 p:nth-of-type(1) {
+  font-size: 20px;
+}
 
-  
+.section5LeftText1 p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: 700;
+}
+.section5LeftText2 p:nth-of-type(1) {
+  background-color: #45009d;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 14px;
 
+}
+
+.section5LeftText2 {
+  font-weight: bold;
+}
 
 @media (min-width: 480px) {
   .logo {

@@ -185,16 +185,20 @@ const HeroSection = () => {
 
       <div className="section5-bg">
         <div className="row px-3">
-          <div className="col-6">
+          <div className="col-5 section5LeftText1">
             <p className="m-0 text-center">Experience Precisoin with ALEX.</p>
-            <p className="text-center ">
-              Book Your Mansoon Package, Today!
-            </p>
+            <p className="text-center ">Book Your Mansoon Package, Today!</p>
           </div>
-          <div className="col-6">
-            <p>www.alexmachinetools.com</p>
-            <p>+91704591771</p>
-            <p>contact@alexmachinetools.com</p>
+          <div className="col-7 section5LeftText2">
+            <div>
+              <p>www.alexmachinetools.com</p>
+            </div>
+            <div>
+              <p>+91704591771</p>
+            </div>
+            <div>
+              <p>contact@alexmachinetools.com</p>
+            </div>
           </div>
         </div>
       </div>
