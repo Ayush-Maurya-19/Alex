@@ -148,9 +148,9 @@ const HeroSection = () => {
         <div className="section3points">
           <div className="row">
             <div className="col-2 ms-4">
-              <img width={50} src="/assets/gtr.png" alt="section3" />
+              <img width={55} src="/assets/gtr.png" alt="section3" />
             </div>
-            <div className="col-8 text-start ">
+            <div className="col-8 text-start ms-1 ">
               <p>When every Micron Counts</p>
               <p>When Speed Matters</p>
               <p>Where Stiggness = Best in Class Finish</p>
