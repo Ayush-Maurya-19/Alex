@@ -46,7 +46,7 @@ const HeroSection = () => {
         {/*------------------------ Section 2 Images ------------------------*/}
         <div className="px-4">
           <div className="row px-md-5  my-5   text-white">
-            <div className="row p-0 m-0">
+            <div className="row my-1">
               <div className="col-6 p-0">
                 <div className="row m-0">
                   <div className="col-4">
@@ -68,7 +68,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="row m-0 p-0">
+            <div className="row my-2 m-0 p-0">
               <div className="col-6 ">
                 <div className="row ">
                   <div className="col-4">
@@ -150,7 +150,7 @@ const HeroSection = () => {
             <div className="col-2 ms-4">
               <img width={55} src="/assets/gtr.png" alt="section3" />
             </div>
-            <div className="col-8 text-start ms-1 ">
+            <div className="col-8 text-start ms-1 pt-3 ">
               <p>When every Micron Counts</p>
               <p>When Speed Matters</p>
               <p>Where Stiggness = Best in Class Finish</p>
@@ -184,7 +184,7 @@ const HeroSection = () => {
       {/* --------------------- section 5 ----------------*/}
 
       <div className="section5-bg">
-        <div className="row px-1">
+        <div className="row mx-0">
           <div className="col-5 section5LeftText1">
             <p className="m-0 text-center">Experience Precisoin with ALEX.</p>
             <p className="text-center ">Book Your Mansoon Package, Today!</p>
@@ -204,15 +204,15 @@ const HeroSection = () => {
       </div>
       {/* --------------------- section 6 ----------------*/}
       <div className="section6-bg">
-        <div className="row ms-5 mx-0">
-          <div className="col-4 p-0">
+        <div className="d-flex flex-row justify-content-center gap-3 ms-5 mx-0">
+          <div className=" ">
             <p>Follow us on - </p>
           </div>
-          <div className="col-2 p-0">
+          <div className="">
             <img src="/assets/icon1.png" width={30} alt="" />
           </div>
 
-          <div className="col-2 p-0">
+          <div className="">
             <img src="/assets/icinyou.png" width={30} alt="" />
           </div>
         </div>
