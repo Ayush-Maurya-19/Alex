@@ -191,13 +191,34 @@ const HeroSection = () => {
           </div>
           <div className="col-7 section5LeftText2">
             <div>
-              <p>www.alexmachinetools.com</p>
+              <p>
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="https://alexmachinetools.com/"
+                >
+                  www.alexmachinetools.com
+                </a>
+              </p>
             </div>
             <div>
-              <p>+91704591771</p>
+              <p>
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="tel:7045291771"
+                >
+                  +91 7045291771
+                </a>
+              </p>
             </div>
             <div>
-              <p>contact@alexmachinetools.com</p>
+              <p>
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="mailto:contact@alexmachinetools.com"
+                >
+                  contact@alexmachinetools.com
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -209,11 +230,11 @@ const HeroSection = () => {
             <p>Follow us on - </p>
           </div>
           <div className="">
-            <img src="/assets/icon1.png" width={30} alt="" />
+            <img src="/assets/icon1.png" width={20} alt="" />
           </div>
 
           <div className="">
-            <img src="/assets/icinyou.png" width={30} alt="" />
+            <img src="/assets/icinyou.png" width={22} alt="" />
           </div>
         </div>
       </div>
