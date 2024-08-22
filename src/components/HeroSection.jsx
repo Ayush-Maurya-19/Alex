@@ -167,14 +167,14 @@ const HeroSection = () => {
         <div className="row section4ClientsImg">
           <div className="col-6">
             <img
-              width={180}
+              width={160}
               src="/assets/pune-testimonial-2-scaled.webp"
               alt="client1"
             />
           </div>
           <div className="col-6">
             <img
-              width={180}
+              width={160}
               src="/assets/pune-testimonial-1-scaled.webp"
               alt="client2"
             />
