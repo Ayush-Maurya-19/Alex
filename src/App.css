@@ -1,0 +1,181 @@
+.background {
+  background-color: #4910a2;
+  z-index: -2;
+  width: 100%;
+  height: 124vh;
+  position: absolute;
+}
+
+.heroimg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.hero1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.logo {
+  margin-left: 10%;
+}
+.herotext1 {
+  color: blur;
+  font-size: 30px;
+  margin-left: 8%;
+  padding: 0;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.herotext2 {
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.featureimg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tablesizeimg {
+  background-color: #00fff2;
+  padding: 10px 5px 5px 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.heroimg2 {
+  width: 220px;
+}
+
+.section3 {
+  background-color: #ffcc00;
+  margin: 40px;
+  padding-top: 10%;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 60px;
+}
+.section3Text {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffcc00;
+}
+.section3-border {
+  border: 1px solid red;
+  height: 200px;
+  width: 0%;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  margin-left: 20%;
+}
+
+.whyChooseText {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.section4ClientsImg {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.section4ClientsImg img {
+  border-radius: 10%;
+  border-top: 5px solid #ffcc00;
+  border-right: 5px solid #ffcc00;
+}
+
+.section5-bg {
+  background-color: #00ff9d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 10%;
+}
+
+.section6-bg {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
+  
+
+
+@media (min-width: 480px) {
+  .logo {
+    margin-top: 40px;
+  }
+
+  .herotext1 {
+    font-size: 60px;
+    margin-top: 100px;
+  }
+
+  .herotext2 {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .heroimg2 {
+    width: 440px;
+  }
+
+  .heroimg {
+    width: 100%;
+    margin-top: -40%;
+  }
+
+  .background {
+    height: 200vh;
+  }
+
+  .section3 {
+    background-color: #ffcc00;
+    margin: 100px;
+    padding-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .whyChooseText {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .section3points {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  .section4ClientsImg {
+    margin-bottom: -40px;
+  }
+
+  .section4ClientsImg img {
+    width: 500px;
+  }
+}
