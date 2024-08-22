@@ -166,18 +166,22 @@ const HeroSection = () => {
         <h4 style={{ fontWeight: "500" }}>Check out our client testimonials</h4>
         <div className="row section4ClientsImg">
           <div className="col-6">
+            <a href="https://www.youtube.com/watch?v=owmlGTgJJCs">
             <img
               width={160}
               src="/assets/pune-testimonial-2-scaled.webp"
               alt="client1"
             />
+            </a>
           </div>
           <div className="col-6">
+            <a href="https://www.youtube.com/watch?v=vlqpolO4I44">
             <img
               width={160}
               src="/assets/pune-testimonial-1-scaled.webp"
               alt="client2"
             />
+            </a>
           </div>
         </div>
       </div>
