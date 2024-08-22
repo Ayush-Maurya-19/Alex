@@ -184,7 +184,7 @@ const HeroSection = () => {
       {/* --------------------- section 5 ----------------*/}
 
       <div className="section5-bg">
-        <div className="row px-3">
+        <div className="row px-1">
           <div className="col-5 section5LeftText1">
             <p className="m-0 text-center">Experience Precisoin with ALEX.</p>
             <p className="text-center ">Book Your Mansoon Package, Today!</p>
