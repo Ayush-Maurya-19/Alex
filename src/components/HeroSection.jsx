@@ -230,11 +230,15 @@ const HeroSection = () => {
             <p>Follow us on - </p>
           </div>
           <div className="">
-            <img src="/assets/icon1.png" width={20} alt="" />
+            <a href="https://www.linkedin.com/company/alexmachinetools/">
+              <img src="/assets/icon1.png" width={20} alt="" />
+            </a>
           </div>
 
           <div className="">
-            <img src="/assets/icinyou.png" width={22} alt="" />
+            <a href="https://www.youtube.com/channel/UCBHW8XIFb8_lYavOy-xRSog">
+              <img src="/assets/icinyou.png" width={22} alt="" />
+            </a>
           </div>
         </div>
       </div>
