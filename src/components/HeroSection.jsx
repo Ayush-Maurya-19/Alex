@@ -57,7 +57,7 @@ const HeroSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-6 p-0">
+              <div className="col-6 ">
                 <div className="row">
                   <div className="col-4">
                     <img src="/assets/Emailer_02-12.png" alt="sdsfghjkl" />
